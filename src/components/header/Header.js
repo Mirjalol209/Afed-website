@@ -1,15 +1,14 @@
+import React from "react";
 import "./header.css";
-
+import headerLogo from "../../assets/images/header-logo.svg";
 function Header() {
   return (
     <div className="header">
       <div className="header__logo">
-        <h1>
-          <u>A</u>FED<span>Group</span>
-        </h1>
+        <img className="logo" src={headerLogo} alt="/" />
       </div>
-      <div className="header__menu"></div>
-      <div className="header__contact"></div>
+      <div className="header__menu">menu</div>
+      <div className="header__contact">contact</div>
     </div>
   );
 }
