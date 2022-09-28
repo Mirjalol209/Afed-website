@@ -1,0 +1,22 @@
+.home__banner{
+    background-image: url('..//..//images/port.jpg');
+    background-size: cover;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.banner__title{
+    color: #fff;
+    
+}
+.banner__title h1 {
+    font-size: 40px;
+ 
+}
+.banner__title p{
+    font-size: 24px;
+    
+}
