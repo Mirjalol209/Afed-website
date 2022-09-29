@@ -1,0 +1,30 @@
+body {
+  background-color: rgba(242, 242, 242, 0.46);
+}
+.offer__banner__heading {
+  display: flex;
+  justify-content: center;
+}
+.offer__banner__heading h1 {
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 5px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+.banner__line {
+  background-color: #0197f6;
+  height: 2px;
+  border: none;
+}
+.offer__banner__menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 330px 330px 330px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  gap: 70px;
+}
+.offer__banner__menu div {
+  border: 5px outset rgb(124, 192, 255);
+}
