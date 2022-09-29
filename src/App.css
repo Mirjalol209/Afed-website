@@ -1,6 +1,17 @@
+<<<<<<< HEAD
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
 }
+=======
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Mada", sans-serif;
+}
+>>>>>>> 21df3bfa25e67a42ac3b60125fc10d85ea1c8f52
