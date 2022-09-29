@@ -9,6 +9,7 @@
   position: fixed;
   width: 100%;
   z-index: 10;
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
 .header__left {
   display: flex;
@@ -25,8 +26,11 @@ a {
   text-decoration: none;
   color: #5f5959;
 }
+a.active,
 a:hover {
+  font-weight: 600;
   color: #0197f6;
+  transition: all 0.5s;
 }
 
 .header__contact {
