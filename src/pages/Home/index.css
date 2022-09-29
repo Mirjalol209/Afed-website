@@ -1,22 +1,100 @@
+/* Banner */
 .home__banner{
-    background-image: url('..//..//images/port.jpg');
+    background-image: url(..//..//images/home-banner-img.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
     background-size: cover;
     padding: 1rem;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
+    box-shadow: inset 140px 180px 180px 180px    rgba(0,0,0,.7);
+  
+    
 }
 
-.banner__title{
-    color: #fff;
+.home__banner__title{
+color: #fff;
+}
+.home__banner__title h1 {
+    font-size: 60px;
+     
+}
+.home__banner__title p{
+    font-size: 34px;
+    padding-top: 10px;
+    font-family: Lato;
+font-size: 24px;
+font-weight: 400;
+letter-spacing: 0em;
+
+
+
+}
+
+/* ADVANTEGES__SECTION */
+
+.advantages__section{
+       padding-top: 30px;
+       background-color: #F5F5F5;
+}
+.advantages__title  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    color: #5F5959;
+}
+
+.advantages__intro{
+    padding-top: 30px;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   text-align: center;
+   font-size: 14px;
+   color:  #5F5959;
+   line-height: 3em;
+
+
+}
+
+/* GOALS__SECTION */
+.goals__section{
+    padding-top: 30px;
+    background-color: #5F5959;
+}
+
+.goals__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   color: #5F5959;
+    font-size: 35px;
+}
+
+.goals__card{
+    display: flex;
+    font-size: 14px;
+    padding: 40px;
+
+}
+
+.left__card{
+    width: 50%;
+
+}
+
+.first__card, .second__card, .thrid__card,  .fourth__card{
+display: flex;
+align-items: center;
+border-radius: 10px;
+background-color: #FFFFFF;
+;
     
 }
-.banner__title h1 {
-    font-size: 40px;
- 
-}
-.banner__title p{
-    font-size: 24px;
-    
+
+.right__card{
+    width: 50%;
 }

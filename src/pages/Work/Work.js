@@ -1,7 +1,7 @@
 import React from "react";
 
 function Work (){
-    return(
+    return( 
         <><h1>Work page</h1></>
     )
 }
