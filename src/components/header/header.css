@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-between;
   background: #e8f0fb;
+  font-family: "Mada";
 }
 .header__left {
   display: flex;
@@ -20,6 +21,7 @@ a {
   text-decoration: none;
   color: #5f5959;
 }
+
 .header__contact {
   display: flex;
   align-items: center;
@@ -34,7 +36,7 @@ a {
   border-radius: 30px;
 }
 .header__contact p {
-  padding-left: 10px;
+  padding-right: 150px;
   font-size: 15px;
   font-weight: 400;
 }
