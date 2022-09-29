@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./header.css";
-import headerLogo from "../../assets/images/header-logo.svg";
 import { BsTelephone } from "react-icons/bs";
+import { Link } from "react-router-dom";
+import headerLogo from "../../assets/images/header-logo.svg";
+
 function Header() {
   return (
     <div className="header">
@@ -23,8 +24,8 @@ function Header() {
           <BsTelephone />
         </span>
         <p>+7 (843) 202-37-37</p>
+        <div className="multiply__language">Eng,Rus,Est</div>
       </div>
-      <div className="multiply__language">Eng,Rus,Est</div>
     </div>
   );
 }
