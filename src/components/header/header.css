@@ -4,7 +4,11 @@
   align-items: center;
   justify-content: space-between;
   background: #e8f0fb;
-  font-family: "Mada";
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 .header__left {
   display: flex;
@@ -20,6 +24,9 @@ a {
   margin-right: 50px;
   text-decoration: none;
   color: #5f5959;
+}
+a:hover {
+  color: #0197f6;
 }
 
 .header__contact {
