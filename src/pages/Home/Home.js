@@ -1,12 +1,14 @@
 import React from "react";
 import './index.css'
 import Header  from '..//../components/header/Header'
-import Chart from "..//..//assets/icons/main-icons/Chart.svg" 
-import Activity from "..//..//assets/icons/main-icons/Activity.svg"
-import Graph from "..//..//assets/icons/main-icons/Graph.svg"
-import Document from "..//..//assets/icons/main-icons/Document.svg"
-import Shield from "..//..//assets/icons/main-icons/Shield.svg"
-import Password from "..//..//assets/icons/main-icons/Password.svg"
+import Chart from "..//..//assets/icons/Chart.svg" 
+import Activity from "..//..//assets/icons/Activity.svg"
+import Graph from "..//..//assets/icons/Graph.svg"
+import Document from "..//..//assets/icons/Document.svg"
+import Shield from "..//..//assets/icons/Shield.svg"
+import Password from "..//..//assets/icons/Password.svg"
+
+
 function Home (){
     return(
         <>

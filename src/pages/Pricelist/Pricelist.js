@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./price.css";
 import Header from "../../components/header/Header";
 import Table from "../../components/pricelist-table/Table";
