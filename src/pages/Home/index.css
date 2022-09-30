@@ -37,7 +37,8 @@ letter-spacing: 0em;
 
 .advantages__section{
        padding-top: 30px;
-       background-color: #F5F5F5;
+       background-color:  #fff;
+       padding: 20px    ;
 }
 .advantages__title  {
     display: flex;
@@ -45,17 +46,18 @@ letter-spacing: 0em;
     justify-content: center;
     text-align: center;
     font-size: 35px;
-    color: #5F5959;
+    color: #c5bf9f;
+ 
 }
 
 .advantages__intro{
     padding-top: 30px;
    display: grid;
-   grid-template-columns: auto auto auto;
+   grid-template-columns: 1fr 1fr 1fr;
    text-align: center;
    font-size: 14px;
-   color:  #5F5959;
    line-height: 3em;
+   color: #000;
 
 
 }
@@ -72,7 +74,7 @@ letter-spacing: 0em;
     display: flex;
     align-items: center;
     justify-content: center;
-   color:  #FFFFFF;
+   color:  #FFFFFF  ;
     font-size: 35px;
 }
 
