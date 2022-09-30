@@ -1,6 +1,9 @@
 body {
   background-color: rgba(242, 242, 242, 0.46);
 }
+.offer__page {
+  margin-top: 80px;
+}
 .offer__banner__heading {
   display: flex;
   justify-content: center;
