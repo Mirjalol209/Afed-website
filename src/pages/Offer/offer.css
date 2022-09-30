@@ -16,7 +16,7 @@ body {
   padding-bottom: 15px;
 }
 .banner__line {
-  background-color: #0197f6;
+  background: #c5bf9f;
   height: 2px;
   border: none;
 }
@@ -30,4 +30,19 @@ body {
 }
 .offer__banner__menu div {
   border: 5px outset rgb(124, 192, 255);
+}
+
+@media only screen and (max-width: 375px) {
+  .offer__banner__heading h1 {
+    padding-top: 20px;
+  }
+  .banner__line {
+    height: 3px;
+  }
+
+  .offer__banner__menu {
+    grid-template-columns: 1fr;
+    padding-left: 80px;
+    gap: 30px;
+  }
 }
