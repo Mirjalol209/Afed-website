@@ -2,14 +2,14 @@ import React from "react";
 import "./header.css";
 import { BsTelephone } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import headerLogo from "../../assets/images/header-logo.svg";
+// import headerLogo from "../../assets/images/header-logo.svg";
 
 function Header() {
   return (
     <div className="header">
       <div className="header__left">
         <div className="header__logo">
-          <img className="logo" src={headerLogo} alt="/" />
+          {/* <img className="logo" src={headerLogo} alt="/" /> */}
         </div>
         <div className="header__menu">
           <Link to={"/"}>Home</Link>
