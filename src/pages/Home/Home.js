@@ -1,11 +1,12 @@
 import React from "react";
 import './index.css'
 import Header  from '..//../components/header/Header'
- import {Ri24HoursLine } from "react-icons/ri";
- import {IoDiamondOutline} from "react-icons/io5"
- import {IoMdDoneAll} from "react-icons/io"
- import {TbMountain} from "react-icons/tb"
-
+import Chart from "..//..//assets/icons/Chart.svg" 
+import Activity from "..//..//assets/icons/Activity.svg"
+import Graph from "..//..//assets/icons/Graph.svg"
+import Document from "..//..//assets/icons/Document.svg"
+import Shield from "..//..//assets/icons/Shield.svg"
+import Password from "..//..//assets/icons/Password.svg"
 function Home (){
     return(
         <>
@@ -22,47 +23,49 @@ function Home (){
       </div>
        <div className="advantages__intro">
         
-       <div class="answer"> <span><Ri24HoursLine size={'90px'} color={'black'}/></span>
-        <h1>Ready to answer all your questions</h1></div>
-       <div class="quality"> <IoDiamondOutline size={'90px'} color={'black'}/>
+       <div class="advantages__card"> 
+       <img src={Shield} alt="/"/>
+        <h1>Daring to do our best work</h1></div>
+       <div class="advantages__card"> 
+       <img src={Password} alt="/"/>
             <h1>We work for quality</h1></div>
-      <div class="uniquness"> <IoMdDoneAll size={'90px'} color={'black'}/>
+      <div class="advantages__card"> 
+       <img src={Document} alt="/"/>
         <h1>The uniqueness of finishing works</h1></div>  
        </div>
        
        </div>
        <div className="goals__section">
-        <div className="goals__title">Mission, vision and goals</div>
+        
+        <div className="goals__title">Mission, vision and goals.</div>
           <div className="goals__content">
             <div className="goals__card">
               <div className="card__left">
                  <div className="first__card">
-                    <TbMountain size={'90px'} />
-                      <span>The mission of the Center is to develop a competent strategy for a long time. Our core values ​​are purposefulness, unity, innovation, precision and development.</span>
+                  <div className="goals__img"> <img src={Chart} alt="/"/> </div>
+                   
+                      <p>The mission of the Center is to develop a competent strategy for a long time. Our core values ​​are purposefulness, unity, innovation, precision and development.</p>
                   </div>
-               
-         
-      
               <div className="second__card">
-              <TbMountain size={'90px'} />
-              <span>The Center's strategy is digital technologies - the future of mankind. They contribute to the development of all spheres of human life and the state. Digitalization of data will increase the country's development indicators.</span>
+                 <img src={Activity} alt="/"/>
+              <p>The Center's strategy is digital technologies - the future of mankind. They contribute to the development of all spheres of human life and the state. Digitalization of data will increase the country's development indicators.</p>
               </div>
               </div>
              <div className="card__right">
                <div className="thrid__card">
-               <TbMountain size={'90px'} />
-              <span>The vision of the Center is not to stop there and constantly work on self-improvement. The results of successful work inspire us to new ideas and methods for their implementation.</span>
+               <img src={Graph} alt="/"/>
+              <p>The vision of the Center is not to stop there and constantly work on self-improvement. The results of successful work inspire us to new ideas and methods for their implementation.</p>
               </div>
               <div className="fourth__card">
-              <TbMountain size={'90px'} />
-              <span>The Center's strategy is digital technologies - the future of mankind. They contribute to the development of all spheres of human life and the state. Digitalization of data will increase the country's development indicators.</span>
+              <img src={Document} alt="/"/>
+              <p>The Center's strategy is digital technologies - the future of mankind. They contribute to the development of all spheres of human life and the state. Digitalization of data will increase the country's development indicators.</p>
               </div>
              </div>
              
             </div>
           </div>
        </div>
-       
+  
         </>
     )
 }

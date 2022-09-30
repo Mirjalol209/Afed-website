@@ -1,6 +1,6 @@
 /* Banner */
 .home__banner{
-    background-image: url(..//..//images/home-banner-img.jpg);
+    background-image: url(..//..//assets/images/home-banner-img.jpg);
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
@@ -37,7 +37,8 @@ letter-spacing: 0em;
 
 .advantages__section{
        padding-top: 30px;
-       background-color: #F5F5F5;
+       background-color:  #fff;
+       padding: 20px    ;
 }
 .advantages__title  {
     display: flex;
@@ -45,17 +46,18 @@ letter-spacing: 0em;
     justify-content: center;
     text-align: center;
     font-size: 35px;
-    color: #5F5959;
+    color: #c5bf9f;
+ 
 }
 
 .advantages__intro{
     padding-top: 30px;
    display: grid;
-   grid-template-columns: auto auto auto;
+   grid-template-columns: 1fr 1fr 1fr;
    text-align: center;
    font-size: 14px;
-   color:  #5F5959;
    line-height: 3em;
+   color: #000;
 
 
 }
@@ -63,38 +65,43 @@ letter-spacing: 0em;
 /* GOALS__SECTION */
 .goals__section{
     padding-top: 30px;
-    background-color: #5F5959;
+    background-color:  #c5bf9f;;
+
+    
 }
 
 .goals__title{
     display: flex;
     align-items: center;
     justify-content: center;
-   color: #5F5959;
+   color:  #FFFFFF  ;
     font-size: 35px;
 }
 
 .goals__card{
-    display: flex;
-    font-size: 14px;
-    padding: 40px;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 16px;
+    padding: 12px;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    
 }
-
-.left__card{
-    width: 50%;
-
+.goals__card p{
+    width: 500px;
 }
 
 .first__card, .second__card, .thrid__card,  .fourth__card{
 display: flex;
 align-items: center;
-border-radius: 10px;
+border-radius: 11px;
 background-color: #FFFFFF;
-;
-    
+padding: 20px;
+margin: 10px;
+gap: 10px;
 }
-
-.right__card{
-    width: 50%;
+.goals__img{
+  
+    border-radius: 10px;
 }
