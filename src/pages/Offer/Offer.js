@@ -4,6 +4,7 @@ import Header from "../../components/header/Header";
 import offerMenuImg1 from "../../assets/images/offer-images/offer-product-1.png";
 import offerMenuImg2 from "../../assets/images/offer-images/offer-product-2.png";
 
+
 function Offer() {
   return (
     <div className="offer__page">

@@ -6,7 +6,9 @@
 body {
   font-family: "Mada", sans-serif;
 }
-.wrapper{
+
+.wrapper {
+
   max-width: 1440px;
   margin: 0 auto;
 }
