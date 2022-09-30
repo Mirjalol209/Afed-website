@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "../../components/header/Header";
-function Primelist() {
+function Pricelist() {
   return (
     <>
       <Header />
-      This is Primelist
+      This is Pricelist
     </>
   );
 }
-export default Primelist;
+export default Pricelist;
