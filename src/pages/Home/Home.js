@@ -5,6 +5,8 @@ import Chart from "..//..//assets/icons/main-icons/Chart.svg"
 import Activity from "..//..//assets/icons/main-icons/Activity.svg"
 import Graph from "..//..//assets/icons/main-icons/Graph.svg"
 import Document from "..//..//assets/icons/main-icons/Document.svg"
+import Shield from "..//..//assets/icons/main-icons/Shield.svg"
+import Password from "..//..//assets/icons/main-icons/Password.svg"
 function Home (){
     return(
         <>
@@ -21,11 +23,14 @@ function Home (){
       </div>
        <div className="advantages__intro">
         
-       <div class="answer"> 
-        <h1>Ready to answer all your questions</h1></div>
-       <div class="quality"> 
+       <div class="advantages__card"> 
+       <img src={Shield} alt="/"/>
+        <h1>Daring to do our best work</h1></div>
+       <div class="advantages__card"> 
+       <img src={Password} alt="/"/>
             <h1>We work for quality</h1></div>
-      <div class="uniquness"> 
+      <div class="advantages__card"> 
+       <img src={Document} alt="/"/>
         <h1>The uniqueness of finishing works</h1></div>  
        </div>
        
