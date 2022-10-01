@@ -33,4 +33,13 @@
 .footer__menu{
 display: grid;
 grid-template-columns: 1fr 1fr ;
+color: #c5bf9f;
+}
+
+.footer__page{
+    color: #c5bf9f;
+}
+
+.footer__page:hover{
+    color: beige;
 }

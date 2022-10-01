@@ -19,11 +19,11 @@ function Footer (){
         <p>site made for AFED Group.</p>
         </div>
            <div className="footer__menu"> 
-           <Link to={"/"}>Home</Link>
-          <Link to={"/about"}>About</Link>
-          <Link to={"/offer"}>Offer</Link>
-          <Link to={"/pricelist"}>Pricelist</Link>
-          <Link to={"/contact"}>Contacts</Link></div>
+           <Link className="footer__page" to={"/"}>Home</Link>
+          <Link  className="footer__page" to={"/about"}>About</Link>
+          <Link  className="footer__page" to={"/offer"}>Offer</Link>
+          <Link  className="footer__page" to={"/pricelist"}>Pricelist</Link>
+          <Link className="footer__page" to={"/contact"}>Contacts</Link></div>
            </div>
 </footer>
  )
