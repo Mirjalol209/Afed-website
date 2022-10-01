@@ -1,0 +1,9 @@
+.price__table__header {
+  width: auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #cccccc;
+  padding: 20px;
+}

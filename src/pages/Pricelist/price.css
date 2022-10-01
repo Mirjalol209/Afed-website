@@ -1,3 +1,15 @@
 .price__page {
   margin-top: 80px;
 }
+.price__page__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding-top: 10px;
+}
+.table__header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding-top: 50px;
+}
