@@ -1,12 +1,13 @@
 import React from "react";
 import './index.css'
 import Header  from '..//../components/header/Header'
-import Chart from "..//..//assets/icons/Chart.svg" 
-import Activity from "..//..//assets/icons/Activity.svg"
-import Graph from "..//..//assets/icons/Graph.svg"
-import Document from "..//..//assets/icons/Document.svg"
-import Shield from "..//..//assets/icons/Shield.svg"
-import Password from "..//..//assets/icons/Password.svg"
+import Footer from "..//..//components/footer/Footer"
+import Chart from "..//..//assets/icons/home-icons/Chart.svg" 
+import Activity from "..//..//assets/icons/home-icons/Activity.svg"
+import Graph from "..//..//assets/icons/home-icons/Graph.svg"
+import Document from "..//..//assets/icons/home-icons/Document.svg"
+import Shield from "..//..//assets/icons/home-icons/Shield.svg"
+import Password from "..//..//assets/icons/home-icons/Password.svg"
 
 
 function Home (){
@@ -67,7 +68,7 @@ function Home (){
             </div>
           </div>
        </div>
-  
+     <Footer/>
         </>
     )
 }

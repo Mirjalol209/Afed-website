@@ -3,8 +3,8 @@ import "./header.css";
 import { BsTelephone } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
-import headerLogo1 from "../../assets/images/header-images/header-logo-lg.svg";
-import headerLogo2 from "../../assets/images/header-images/header-logo-lg.svg";
+import headerLogo1 from "../../assets/icons/header-icons/header-logo-lg.svg";
+import headerLogo2 from "../../assets/icons/header-icons/header-logo-sm.svg";
 
 
 
