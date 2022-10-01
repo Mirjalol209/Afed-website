@@ -27,11 +27,11 @@ a {
   color: #5f5959;
 }
 
-a.active,
-a:hover {
-  font-weight: 600;
-  color: #0197f6;
-  transition: all 0.5s;
+.header__menu:active,
+.header__menu:hover {
+  font-weight: 500;
+  color: #cccccc;
+  transition: all 0.2s;
 }
 
 .header__contact {
