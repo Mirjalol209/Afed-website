@@ -2,6 +2,9 @@ import "./price.css";
 import Header from "../../components/header/Header";
 import Table from "../../components/pricelist-table/Table";
 import TableHeader from "../../components/pricelist-table-header/Price-table-header";
+
+import Footer from "..//..//components/footer/Footer"
+
 function Pricelist() {
   return (
     <div className="price__page wrapper">
@@ -70,6 +73,8 @@ function Pricelist() {
           productPayment={"cash"}
         />
       </div>
+      <Table />
+      <Footer/>
     </div>
   );
 }
