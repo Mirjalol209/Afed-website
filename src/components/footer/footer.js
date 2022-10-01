@@ -10,7 +10,7 @@ import {FaTelegramPlane} from "react-icons/fa";
 function Footer (){
  return(
     <footer>
-    <div className="footer__section">
+    <div className="footer__section">  
    
      <div className="footer__logo"> <Link to={"/"}> <img className="logo" src={footerLogo1} alt="/" /></Link>  
 </div>
