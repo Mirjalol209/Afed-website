@@ -6,7 +6,9 @@
     padding-right: 40px;
     background-color: #000;
 }
-
+.footer__logo{
+    cursor: pointrer;
+}
 .footer__info{
     display: grid;
     justify-content: center;
@@ -23,6 +25,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     gap: 20px;
     align-items: center;
+    cursor: pointer;
 
 
 }
