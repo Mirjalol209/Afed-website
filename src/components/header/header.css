@@ -19,7 +19,7 @@
 .header__logo {
   padding: 10px 200px 0 30px;
 }
-a {
+.header__menu a {
   font-size: 20px;
   font-weight: 400;
   margin-right: 50px;
@@ -27,18 +27,13 @@ a {
   color: #5f5959;
 }
 
-.header__menu:active,
-.header__menu:hover {
+.header__menu a:hover {
   font-weight: 500;
-  color: #cccccc;
+  color: black;
   transition: all 0.5s ease-in-out;
 }
 .header__routing__responsive a:hover {
-  color: #cccccc;
-  transition: all 0.2s ease-in-out;
-}
-.header__menu a:hover {
-  color: #cccccc;
+  color: black;
   transition: all 0.2s ease-in-out;
 }
 
@@ -83,7 +78,7 @@ a {
   .header__menu__responsive {
     display: flex;
     padding-bottom: 10px;
-    margin-left: 100px;
+    margin-left: 40px;
   }
   .header__button__responsive {
     display: flex;
