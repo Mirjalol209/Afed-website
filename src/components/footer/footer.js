@@ -22,10 +22,10 @@ function Footer() {
           </Link>
         </div>
         <div className="footer__socialNetwork">
-          <AiOutlineInstagram size={"30px"} color={"#c5bf9f"} />{" "}
-          <FaTelegramPlane size={"30px"} color={"#c5bf9f"} />{" "}
-          <AiOutlineFacebook size={"30px"} color={"#c5bf9f"} />{" "}
-          <AiOutlineTwitter size={"30px"} color={"#c5bf9f"} />
+ <span><AiOutlineInstagram color={"#c5bf9f"} />Instagram</span>
+        <span><FaTelegramPlane  color={"#c5bf9f"} />Telegram</span>  
+         <span> <AiOutlineFacebook color={"#c5bf9f"} />Facebook</span>
+         <span><AiOutlineTwitter  color={"#c5bf9f"} />Twitter</span> 
         </div>
         <div className="footer__info">
           <p>all rights reserved.</p>
