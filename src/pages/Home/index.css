@@ -9,29 +9,46 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    box-shadow: inset 140px 180px 180px 180px    rgba(0,0,0,.7);
+    box-shadow: inset 100px 500px 100px 500px rgba(0,0,0,.7);
   
     
 }
 
-.home__banner__title{
-color: #fff;
+.home__banner h2{
+    color: #c5bf9f;
 }
-.home__banner__title h1 {
+  svg text {
+    letter-spacing: 10px;
+    stroke: #fff;
     font-size: 60px;
-     
-}
-.home__banner__title p{
-    font-size: 34px;
-    padding-top: 10px;
-    font-family: Lato;
-font-size: 24px;
-font-weight: 400;
-letter-spacing: 0em;
+    text-transform: uppercase;
+    font-weight: 100;
+    stroke-width: 2;
+    color: rgb(0, 0, 0);
+   
+    animation: textAnimate 5s infinite alternate;
+    
+  }
+  
+  @keyframes textAnimate {
+    0% {
+      stroke-dasharray: 0 50%;
+      stroke-dashoffset:  20%;
+      fill: #fff
+  
+    }
+    
+    100% {
+      stroke-dasharray: 50% 0;
+      stroke-dashoffstet: -20%;
+      fill: #c5bf9f;
+    }
+    
+  }
+  
+  
+  
 
-
-
-}
 
 /* ADVANTEGES__SECTION */
 
