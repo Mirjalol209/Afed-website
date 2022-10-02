@@ -16,8 +16,15 @@ function Home (){
         <Header/>
        <div className="home__banner">
         <div  className="home__banner__title">
-            <h1>Fashion passes, style remains.</h1>
-      <p>To enter into good society, one must wear a tailcoat, uniform or livery.</p>
+        <div class="patterns">
+  <svg width="100%" height="100%">
+ <text x="50%" y="60%"  text-anchor="middle" fill="black" >
+   Welcome to Afed group!
+
+ </text>
+ </svg>
+ <h2>We are glad see to see you on our website.</h2>
+</div>
             
         </div>
        </div>
