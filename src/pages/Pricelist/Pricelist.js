@@ -2,7 +2,6 @@ import "./price.css";
 import Header from "../../components/header/Header";
 import Table from "../../components/pricelist-table/Table";
 import TableHeader from "../../components/pricelist-table-header/Price-table-header";
-
 import Footer from "..//..//components/footer/Footer";
 
 function Pricelist() {
@@ -75,7 +74,7 @@ function Pricelist() {
           />
         </div>
       </div>
-      <Footer />
+      <Footer />  
     </div>
   );
 }
