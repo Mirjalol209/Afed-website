@@ -6,8 +6,6 @@ import { Link } from "react-router-dom";
 import headerLogo1 from "../../assets/icons/header-icons/header-logo-lg.svg";
 import headerLogo2 from "../../assets/icons/header-icons/header-logo-sm.svg";
 
-
-
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
   const toggleMenu = () => {
@@ -17,11 +15,12 @@ function Header() {
     <div className="header">
       <div className="header__left">
         <div className="header__logo">
-
-          <picture>
-            <source srcset={headerLogo2} media="(max-width: 400px)" />
-            <Link to={"/"}><img className="logo" src={headerLogo1} alt="/" /></Link>
-          </picture>
+          <Link to={"/"}>
+            <picture>
+              <source srcset={headerLogo2} media="(max-width: 400px)" />
+              <img className="logo" src={headerLogo1} alt="/" />
+            </picture>
+          </Link>
 
           <div className="header__menu__responsive">
             {openMenu ? (
@@ -37,7 +36,6 @@ function Header() {
               <GiHamburgerMenu />
             </button>
           </div>
-
         </div>
 
         <div className="header__menu">
