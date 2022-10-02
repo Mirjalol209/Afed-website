@@ -11,17 +11,19 @@ function Pricelist() {
         <Header />
         <div className="table__header">
           <TableHeader
-            productId={"Product ID"}
+            productId={"ID"}
             productName={"Customer"}
             productCost={"Amount due"}
             productPayment={"Payment"}
           />
-          <TableHeader
-            productId={"Product ID"}
-            productName={"Customer"}
-            productCost={"Amount due"}
-            productPayment={"Payment"}
-          />
+          <span>
+            <TableHeader
+              productId={"ID"}
+              productName={"Customer"}
+              productCost={"Amount due"}
+              productPayment={"Payment"}
+            />
+          </span>
         </div>
         <div className="price__page__table">
           <Table
@@ -74,7 +76,7 @@ function Pricelist() {
           />
         </div>
       </div>
-      <Footer />  
+      <Footer />
     </div>
   );
 }
