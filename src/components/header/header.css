@@ -31,16 +31,15 @@ a {
 .header__menu:hover {
   font-weight: 500;
   color: #cccccc;
-  transition: all 0.2s;
-}
-
-.header__routing__responsive a:hover {
-  color: black;
   transition: all 0.5s ease-in-out;
+}
+.header__routing__responsive a:hover {
+  color: #cccccc;
+  transition: all 0.2s ease-in-out;
 }
 .header__menu a:hover {
-  color: black;
-  transition: all 0.5s ease-in-out;
+  color: #cccccc;
+  transition: all 0.2s ease-in-out;
 }
 
 .header__contact {
