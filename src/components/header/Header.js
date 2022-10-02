@@ -25,21 +25,11 @@ function Header() {
           <div className="header__menu__responsive">
             {openMenu ? (
               <div className="header__routing__responsive">
-                <Link className="header__menu" to={"/"}>
-                  Home
-                </Link>
-                <Link className="header__menu" to={"/about"}>
-                  About
-                </Link>
-                <Link className="header__menu" to={"/offer"}>
-                  Offer
-                </Link>
-                <Link className="header__menu" to={"/pricelist"}>
-                  Pricelist
-                </Link>
-                <Link className="header__menu" to={"/contact"}>
-                  Contacts
-                </Link>
+                <Link to={"/"}>Home</Link>
+                <Link to={"/about"}>About</Link>
+                <Link to={"/offer"}>Offer</Link>
+                <Link to={"/pricelist"}>Pricelist</Link>
+                <Link to={"/contact"}>Contacts</Link>
               </div>
             ) : null}
             <button className="header__button__responsive" onClick={toggleMenu}>
@@ -49,21 +39,11 @@ function Header() {
         </div>
 
         <div className="header__menu">
-          <Link className="header__menu" to={"/"}>
-            Home
-          </Link>
-          <Link className="header__menu" to={"/about"}>
-            About
-          </Link>
-          <Link className="header__menu" to={"/offer"}>
-            Offer
-          </Link>
-          <Link className="header__menu" to={"/pricelist"}>
-            Pricelist
-          </Link>
-          <Link className="header__menu" to={"/contact"}>
-            Contacts
-          </Link>
+          <Link to={"/"}>Home</Link>
+          <Link to={"/about"}>About</Link>
+          <Link to={"/offer"}>Offer</Link>
+          <Link to={"/pricelist"}>Pricelist</Link>
+          <Link to={"/contact"}>Contacts</Link>
         </div>
       </div>
       <div className="header__contact">
