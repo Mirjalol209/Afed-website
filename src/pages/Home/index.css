@@ -34,14 +34,14 @@
     0% {
       stroke-dasharray: 0 50%;
       stroke-dashoffset:  20%;
-      fill: #fff
+      fill: #c5bf9f
   
     }
     
     100% {
       stroke-dasharray: 50% 0;
       stroke-dashoffstet: -20%;
-      fill: #c5bf9f;
+      fill: #fff;
     }
     
   }
