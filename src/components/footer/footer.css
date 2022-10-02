@@ -33,6 +33,7 @@
 display: grid;
 grid-template-columns: 1fr 1fr ;
 color: #c5bf9f;
+list-style-type: none;
 }
 .footer__page{
     color: #c5bf9f;
