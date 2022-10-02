@@ -1,7 +1,7 @@
 .price__page {
   margin-top: 80px;
 }
-.price__page__content {
+.price__page__table {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
