@@ -2,12 +2,12 @@ import React from "react";
 import "./index.css";
 import Footer from "..//..//components/footer/Footer";
 import Header from "..//..//components/header/Header";
-import Map from "..//..//components/map/Map";
+import ContactMap from "..//..//components/map/Map";
 import { Link } from "react-router-dom";
 import profileImg from "..//..//assets/images/contact-images/contact-profile.jpg";
 import { AiOutlineFacebook, AiOutlineInstagram } from "react-icons/ai";
 import { FaTelegramPlane } from "react-icons/fa";
-import ContactMap from "..//..//components/map/Map";
+import { BsYoutube } from "react-icons/bs";
 function Contact() {
   return (
     <div className="contact__page">
@@ -37,6 +37,9 @@ function Contact() {
               </Link>
               <Link to="*">
                 <AiOutlineFacebook />
+              </Link>
+              <Link to="*">
+                <BsYoutube />
               </Link>
             </div>
           </div>
