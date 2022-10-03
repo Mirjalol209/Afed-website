@@ -25,7 +25,7 @@ function Footer() {
  <span><AiOutlineInstagram color={"#c5bf9f"} />Instagram</span>
         <span><FaTelegramPlane  color={"#c5bf9f"} />Telegram</span>  
          <span> <AiOutlineFacebook color={"#c5bf9f"} />Facebook</span>
-         <span><AiOutlineTwitter  color={"#c5bf9f"} />Twitter</span> 
+         <span><AiOutlineTwitter  color={"#c5bf9f"} />Twitter </span> 
         </div>
         <div className="footer__info">
           <p>all rights reserved.</p>
