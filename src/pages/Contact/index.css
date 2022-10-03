@@ -1,0 +1,90 @@
+.contact__page {
+  height: calc(100vh - 80px);
+  margin-top: 80px;
+}
+.contact__heading {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 20px 0;
+}
+.contact__heading h1 {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 5px;
+  color: #c5bf9f;
+}
+.contact__line {
+  margin: 20px auto 50px auto;
+}
+.contact__page__content {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 2fr;
+  gap: 30px;
+  grid-template-rows: 400px 400px;
+  padding-bottom: 50px;
+}
+.info {
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+}
+.card__border {
+  width: 100%;
+  border: 2px solid #c5bf9f;
+  border-radius: 5px;
+  padding: 20px;
+}
+.contact__first h3 {
+  color: #c5bf9f;
+  font-weight: 700;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.contact__first span {
+  color: rgb(160, 160, 160);
+  font-weight: 600;
+  margin-right: 5px;
+}
+.contact__first p {
+  padding-bottom: 10px;
+}
+.card__line {
+  margin: 20px 0 20px 0;
+}
+.card__icons a {
+  color: #c5bf9f;
+  font-size: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.contact__second h3 {
+  color: #c5bf9f;
+  font-weight: 700;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.contact__second span {
+  color: rgb(160, 160, 160);
+  font-weight: 700;
+}
+.contact__second p {
+  padding-bottom: 5px;
+}
+.contact__img {
+  border: 2px solid #c5bf9f;
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.contact__img img {
+  height: 100%;
+  width: 100%;
+}
+
+.contact__map {
+  border: 2px solid #c5bf9f;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

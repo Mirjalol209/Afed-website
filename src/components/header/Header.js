@@ -13,38 +13,20 @@ function Header() {
   };
   return (
     <div className="header">
-      <div className="header__left">
-        <div className="header__logo">
-          <Link to={"/"}>
-            <picture>
-              <source srcset={headerLogo2} media="(max-width: 400px)" />
-              <img className="logo" src={headerLogo1} alt="/" />
-            </picture>
-          </Link>
-
-          <div className="header__menu__responsive">
-            {openMenu ? (
-              <div className="header__routing__responsive">
-                <Link to={"/"}>Home</Link>
-                <Link to={"/about"}>About</Link>
-                <Link to={"/offer"}>Offer</Link>
-                <Link to={"/pricelist"}>Pricelist</Link>
-                <Link to={"/contact"}>Contacts</Link>
-              </div>
-            ) : null}
-            <button className="header__button__responsive" onClick={toggleMenu}>
-              <GiHamburgerMenu />
-            </button>
-          </div>
-        </div>
-
-        <div className="header__menu">
-          <Link to={"/"}>Home</Link>
-          <Link to={"/about"}>About</Link>
-          <Link to={"/offer"}>Offer</Link>
-          <Link to={"/pricelist"}>Pricelist</Link>
-          <Link to={"/contact"}>Contacts</Link>
-        </div>
+      <div className="header__logo">
+        <Link to={"/"}>
+          <picture>
+            <source srcset={headerLogo2} media="(max-width: 400px)" />
+            <img className="logo" src={headerLogo1} alt="/" />
+          </picture>
+        </Link>
+      </div>
+      <div className="header__menu">
+        <Link to={"/"}>Home</Link>
+        <Link to={"/about"}>About</Link>
+        <Link to={"/offer"}>Offer</Link>
+        <Link to={"/pricelist"}>Pricelist</Link>
+        <Link to={"/contact"}>Contacts</Link>
       </div>
       <div className="header__contact">
         <span>
@@ -58,3 +40,24 @@ function Header() {
 }
 
 export default Header;
+
+/* <div className="header__left">
+        
+        <div className="header__menu__responsive">
+          {openMenu ? (
+            <div className="header__routing__responsive">
+              <Link to={"/"}>Home</Link>
+              <Link to={"/about"}>About</Link>
+              <Link to={"/offer"}>Offer</Link>
+              <Link to={"/pricelist"}>Pricelist</Link>
+              <Link to={"/contact"}>Contacts</Link>
+            </div>
+          ) : null}
+          <button className="header__button__responsive" onClick={toggleMenu}>
+            <GiHamburgerMenu />
+          </button>
+        </div>
+
+        
+      </div>
+      */
