@@ -76,7 +76,7 @@ function Pricelist() {
           />
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -14,3 +14,12 @@ body {
 .logo:hover {
   cursor: pointer;
 }
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.line {
+  background: #c5bf9f;
+  height: 2px;
+  border: none;
+}
