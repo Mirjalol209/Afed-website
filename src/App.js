@@ -18,7 +18,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/offer" element={<Offer />} />
         <Route path="/pricelist" element={<Pricelist />} />
-
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>

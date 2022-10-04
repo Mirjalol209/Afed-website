@@ -12,10 +12,11 @@ function Contact() {
   return (
     <div className="contact__page">
       <Header />
-      <div className="contact__heading wrapper">
+        <div className="contact__heading wrapper">
         <h1>contact us</h1>
-      </div>
+     </div>
       <hr className="contact__line line wrapper" />
+      
       <div className="contact__page__content wrapper">
         <div className="contact__first info">
           <div className="card__border">
@@ -28,7 +29,7 @@ function Contact() {
             <h3>Our Contact</h3>
             <p>+7 (843) 202-37-37</p>
             <hr className="line card__line" />
-            <div className="card__icons">
+           <div className="card__icons">
               <Link to="*">
                 <AiOutlineInstagram />
               </Link>
@@ -69,13 +70,15 @@ function Contact() {
             </p>
           </div>
         </div>
+
         <div className="contact__img">
           <img src={profileImg} alt="/" />
         </div>
-        <div className="contact__map">
+        {/* <div className="contact__map">
           <ContactMap />
-        </div>
+        </div> */}
       </div>
+      
       <Footer />
     </div>
   );

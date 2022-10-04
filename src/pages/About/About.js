@@ -22,7 +22,7 @@ function About() {
        <hr className="line wrapper about__line__first"  />
         <div className="about__us__content">
            <div className="about__img">
-            <img src={aboutImg} alt="/" height={"400px"} />
+            <img src={aboutImg} alt="/" height={"400px"} className="aboutImg__responsive" />
            </div>
              <div className="about__text">
                <div className="activities">Our activities</div> 
