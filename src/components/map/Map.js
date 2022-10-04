@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
 import "./map.css";
-import { YMaps, Map, Placemark } from "react-yandex-maps";
+ import { YMaps, Map, Placemark } from "@pb";
 import { useEffect, useState } from "react";
 
 // const apiKey =

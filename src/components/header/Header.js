@@ -12,6 +12,7 @@ function Header() {
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
   };
+  const { t } = useTranslation();
   return (
     <div className="header">
       <div className="header__content__left">
@@ -54,7 +55,11 @@ function Header() {
             call center
           </a>
         </div>
-        <div className="multiply__language">{/* <Translator /> */}</div>
+        <div className="multiply__language"><h2>{t('welcome')}</h2>
+      <select onChange={(item)=>i18n.changeLanguage(item.target.value)}>
+        <option value="en">English</option>
+        <option value="ru">Russian</option>
+      </select></div>
       </div>
     </div>
   );
